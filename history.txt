@@ -1,0 +1,15 @@
+  537  vim Test.java 
+  538  git init
+  539  git add Test.java
+  540  git commit -m "first commit."
+  541  git remote add origin https://github.com/soreana/network_project_one.git
+  542  git push -u origin master
+  543  cd ..
+  544  rm -rf net_project/
+  545  git clone https://github.com/soreana/network_project_one.git
+  546  ls
+  547  cd network_project_one/
+  548  ls
+  549  history 10 > history.txt
+  550  vim history.txt 
+  551  history 15 > history.txt
